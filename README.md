@@ -54,31 +54,6 @@ Eclipse 실행>위 상단 File>New>Other>Spring>Spring Legacy Project 생성
 
 pom.xml 파일을 열어 Spring 버전과 maven-compiler 버전 수정 
     
-```java
-<properties>
-  <java-version>1.8</java-version>
-  <org.springframework-version>5.2.5 RELEASE</org.springframework-version>
-  <org.aspectj-version>1.6.10</org.aspectj-version>
-  <org.slf4j-version>1.6.6</org.slf4j-version>
-</properties>
-```
-
-```java
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-compiler-plugin</artifactId>
-<version>3.7.0</version>
-<configuration>
-  <source>1.8</source>
-  <target>1.8</target>
-  <compilerArgument>-Xlint:all</compilerArgument>
-  <showWarnings>true</showWarnings>
-  <showDeprecation>true</showDeprecation>
-</configuration>
-```
-   
-Server 탭>New>Server>Tomact v9.0 Server 선택>Server name 설정>Next   
-Availabe에 위치한 settingweb을 Configured로 이동>Finish   
-
 Server>Tomcat v9.0 Server 선택>초록색 실행버튼 클릭>서버 작동   
 localhost:8080/settingweb(프로젝트명)으로 접속 (정상 실행이 된다면 Hello World!를 확인 가능)    
 
