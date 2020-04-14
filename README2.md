@@ -1,6 +1,10 @@
 # 2주차 D3_graph  
          
-**1. Visual Studio Code 설치**   
+**1. d3**
+```
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+```
  
    
 #### 1.1 Dynamic web project      
